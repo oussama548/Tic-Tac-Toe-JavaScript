@@ -1,0 +1,85 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right,rgb(143, 197, 245),rgb(241, 149, 243));
+    display:flex;
+    justify-content:center;
+}
+
+.game{
+    height:600px;
+    width:450px;
+}
+.container{
+    margin-top:100px;
+    width:450px;
+    height:450px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 8px;
+}
+
+.val{
+    background-color: white;
+    border-radius:7px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(130, 14, 111);
+    font-size: 4.8em ;
+    font-weight:700;
+    cursor: pointer;
+
+}
+
+.restart{
+    margin:60px auto 0px auto;
+    width:25%;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(19, 1, 28) ;
+    border-radius:5px;
+    color:white;
+    cursor:pointer;
+}
+
+.hide{
+    display:none;
+}
+
+.win_board{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:450px;
+    text-align: center;
+    
+}
+
+.winis{
+    color:white;
+    font-size:4em;
+    font-weight: 800;
+    margin-bottom: 70px;
+}
+
+.new{
+    width:300px;
+    height:80px;
+    border-radius:5px;
+    background-color: rgb(72, 3, 86);
+    color:white;
+    font-size:2em;
+    font-weight: 600;
+    margin:auto;
+    text-align: center;
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
