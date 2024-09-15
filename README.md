@@ -44,7 +44,7 @@ The project consists of three main files:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/tic-tac-toe.git
+   git clone https://github.com/oussama548/tic-tac-toe.git
    ```
 2. Navigate to the project directory:
    ```
@@ -93,8 +93,3 @@ You can easily customize the game by modifying the CSS file:
 ## Contributing
 feel free to add you features to the project
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
